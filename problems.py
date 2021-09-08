@@ -48,7 +48,7 @@ month = int(input()[:-1])
 day = input()[:-1]
 
 months = ("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December")
-month_name = months[month + 1]
+month_name = months[month - 1]
 print(first_name, last_name, "was born on", month_name, day, "in", year)
 print(first_name[:4] + last_name[0] + day)
 num_names = ("zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine")
