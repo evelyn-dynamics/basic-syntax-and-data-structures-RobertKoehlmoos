@@ -41,3 +41,16 @@ Lucky
 
 Don't worry, the users will only give months consisting of integers that correspond to months that actually exist.
 """
+first_name = input()
+last_name = input()
+year = input()
+month = int(input())
+day = input()
+
+months = ("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December")
+month_name = months[month]
+print(first_name, last_name, "was born on", month_name, day, "in", year)
+print(first_name[:4] + last_name[0] + day)
+num_names = ("zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine")
+print(first_name[-1] + last_name[::-1] + num_names[year[-1]])
+print("Lucky" if day != "13" else "Unlucky")
