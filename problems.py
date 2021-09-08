@@ -45,7 +45,7 @@ first_name = input()[:-1]
 last_name = input()[:-1]
 year = input()[:-1]
 month = int(input()[:-1])
-day = input()
+day = input()[:-1]
 
 months = ("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December")
 month_name = months[month]
