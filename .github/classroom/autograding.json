@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "1",
+      "setup": "",
+      "run": "python problems.py",
+      "input": "Scooby\r\nDoo\r\n1969\r\n9\r\n13",
+      "output": "Scooby Doo was born on September 13 in 1969\r\nScooD13\r\nyooDnine\r\nLucky",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
