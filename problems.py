@@ -37,15 +37,15 @@ Would print
 Scooby Doo was born on September 13 in 1969
 ScooD13
 yooDnine
-Lucky
+Unlucky
 
 Don't worry, the users will only give months consisting of integers that correspond to months that actually exist.
 """
-first_name = input()[:-1]
-last_name = input()[:-1]
-year = input()[:-1]
-month = int(input()[:-1])
-day = input()[:-1]
+first_name = input().strip()
+last_name = input().strip()
+year = input().strip()
+month = int(input().strip())
+day = input().strip()
 
 months = ("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December")
 month_name = months[month - 1]
