@@ -9,6 +9,46 @@
       "comparison": "included",
       "timeout": 10,
       "points": null
+    },
+    {
+      "name": "2",
+      "setup": "",
+      "run": "python problems.py",
+      "input": "Bugs\r\nBunny\r\n1940\r\n7\r\n27",
+      "output": "Bugs Bunny was born on July 27 in 1940\r\nBugsB27\r\nsynnuBzero\r\nLucky",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "3",
+      "setup": "",
+      "run": "python problems.py",
+      "input": "Daffy     \r\nDuck\r\n1937\r\n4\r\n17",
+      "output": "Daffy Duck was born on April 17 in 1937\r\nDaffD17\r\nykcuDseven\r\nLucky",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "4",
+      "setup": "",
+      "run": "python problems.py",
+      "input": "Homer\r\nSimpson\r\n1955\r\n5\r\n10",
+      "output": "Homer Simpson was born on May 10 in 1955\r\nHomeS10\r\nrnospmiSfive\r\nLucky",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "5",
+      "setup": "",
+      "run": "python problems.py",
+      "input": "Mickey\r\nMouse\r\n1928\r\n11\r\n18",
+      "output": "Mickey Mouse was born on November 18 in 1928\r\nMickM18\r\nyesuoMeight\r\nLucky",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
     }
   ]
 }
