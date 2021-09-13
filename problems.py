@@ -41,11 +41,11 @@ Unlucky
 
 Don't worry, the users will only give months consisting of integers that correspond to months that actually exist.
 """
-first_name = input().strip()
-last_name = input().strip()
-year = input().strip()
-month = int(input().strip())
-day = input().strip()
+first_name = input("What is your first name?").strip()
+last_name = input("What is your last name?").strip()
+year = input("What year were you born?").strip()
+month = int(input("What month were you born?").strip())
+day = input("What day of the month were you born?").strip()
 
 months = ("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December")
 month_name = months[month - 1]
